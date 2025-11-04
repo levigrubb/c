@@ -2,8 +2,6 @@
 #define TRUE 0
 #define FALSE 1
 
-int print_big(int x);
-
 int print_big(int x) {
   if (x > 10) {
     printf("%d is big\n", x);
